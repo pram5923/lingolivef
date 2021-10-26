@@ -1,0 +1,163 @@
+.menu li{
+    display: inline-block;
+    cursor: pointer;
+    padding:0 20px;
+}
+.menu a{
+    text-decoration: none;
+    list-style: none;
+    color:#fff;
+}
+
+.menu li a:hover{
+    color: rgb(255, 68, 35);
+}
+
+.menu li a{
+    transition: all .3s ease;
+}
+
+.menu{
+    background-color: rgb(31, 30, 30);
+    height: 60px;
+    font-size: 28px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#text{
+    margin: 20px auto;
+}
+
+.top ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    margin: auto 5%;
+}
+.top ul li h1{
+    right:30%;
+    transform:translateX(30%);
+}
+.top ul li input{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*------table------*/
+.row label{
+    font-size:16px;
+}
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .list td, .list th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .list tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .list tr:hover {background-color: #ddd;}
+  
+  .list th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .list .count{
+    width: 10%;
+  }
+
+
+  /*-----------------End table-------*/
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  input[type=password]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; 
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin:10px 500px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  .col-25 label{
+    font-size: 24px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
